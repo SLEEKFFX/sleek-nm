@@ -1,0 +1,15 @@
+{
+  "name": "sleeknm-bot",
+  "version": "1.0.0",
+  "description": "Mini WhatsApp bot using Baileys for lightweight environments",
+  "main": "sleeknm.js",
+  "scripts": {
+    "start": "node sleeknm.js"
+  },
+  "author": "SLEEKNM",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "wa-sticker-formatter": "^1.4.4"
+  }
+}
