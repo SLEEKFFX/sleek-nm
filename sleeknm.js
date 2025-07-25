@@ -1,5 +1,6 @@
 // sleeknm.js
 require('dotenv').config();
+const phoneNumber = process.env.PHONE_NUMBER;
 const connectToWhatsApp = require('./lib/connect');
 const fs = require('fs');
 const path = require('path');
